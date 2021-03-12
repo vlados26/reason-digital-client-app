@@ -1,7 +1,7 @@
 import { IServerConfiguration } from './interfaces/transport-layer.interfaces';
 
 export const config: IServerConfiguration = {
-    baseURL: 'https://romantic-banach-9e95dd.netlify.app',
+    baseURL: 'http://localhost:8080',
     timeout: 100000,
     headers: {},
 };
