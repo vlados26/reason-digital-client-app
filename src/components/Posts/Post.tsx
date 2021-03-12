@@ -22,7 +22,7 @@ const Post = () => {
     } = useParams();
 
     const post = postsDoc.find(
-        (e: { [key: string]: any }) => Number(e.id) == Number(params.id)
+        (e: { [key: string]: any }) => Number(e.id) === Number(params.id)
     );
 
     return (
