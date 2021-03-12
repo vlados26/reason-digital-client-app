@@ -39,7 +39,7 @@
         "@types/styled-components": "^5.1.0",
         "@types/uuid": "^8.0.0"
     },
-    "proxy": "https://reason-digital-server-app.herokuapp.com/",
+    "proxy": "https://romantic-banach-9e95dd.netlify.app",
     "eslintConfig": {
         "extends": "react-app"
     },
