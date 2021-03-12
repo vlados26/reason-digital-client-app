@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://friendly-boyd-208bbc.netlify.app"
-  to = "https://friendly-boyd-208bbc.netlify.app"
+  from = "https://friendly-boyd-208bbc.netlify.app/signup"
+  to = "https://friendly-boyd-208bbc.netlify.app/login"
   status = 301
   force = true
