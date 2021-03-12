@@ -39,7 +39,7 @@
         "@types/styled-components": "^5.1.0",
         "@types/uuid": "^8.0.0"
     },
-    "proxy": "http://localhost:3337",
+    "proxy": "https://reason-digital-server-app.herokuapp.com/",
     "eslintConfig": {
         "extends": "react-app"
     },
