@@ -1,14 +1,14 @@
-import React, { useState, useContext } from 'react';
-import { Button, Col, Container, Form, Row, Spinner } from 'react-bootstrap';
+import React, { useContext, useState } from 'react';
+import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import styled from 'styled-components';
+import { AuthContext } from '../context/AuthContext';
 import { loginCustomer } from '../controllers/login.controller';
 import { signupCustomer } from '../controllers/signup.controller';
+import { useNotify } from '../hooks/notify.hook';
 import { AuthFormMapping } from '../shared/constants';
 import { AuthPageName, IAuthResponse } from '../shared/interfaces/common';
-import { Notify } from './Notify';
-import { useNotify } from '../hooks/notify.hook';
-import { AuthContext } from '../context/AuthContext';
 import Loader from './Loader';
+import { Notify } from './Notify';
 
 const StyledForm = styled(Form)`
     margin: 0 auto;
