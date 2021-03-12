@@ -1,7 +1,7 @@
 import { IServerConfiguration } from './interfaces/transport-layer.interfaces';
 
 export const config: IServerConfiguration = {
-    baseURL: 'http://localhost:8080',
+    baseURL: 'https://reason-digital-server-app.herokuapp.com',
     timeout: 100000,
     headers: {},
 };
