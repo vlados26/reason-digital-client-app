@@ -34,7 +34,6 @@ export default class TransportLayer implements ITransportLayer {
                         );
                     }
                     localStorage.removeItem(STORAGE_NAME);
-                    window.location.replace('/login');
                     reject(err);
                 });
             }
